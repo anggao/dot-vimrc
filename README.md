@@ -10,7 +10,7 @@
         
 2. Clone and install this repo:
         
-        git clone git://github.com/anggao/dot-vimrc.git ~/dot-vimrc
+        git clone git://github.com/anggao/dot-vimrc.git ~/.dot-vimrc
         ln -s ~/.dot-vimrc/.vimrc ~/.vimrc
         ln -s ~/.dot-vimrc/.vim ~/.vim
         ln -s ~/.dot-vimrc/.zshrc ~/.zshrc
@@ -19,7 +19,13 @@
 
         git clone git://github.com/anggao/oh-my-zsh.git ~/.oh-my-zsh
 
-4. Install bundles. Launch vim(Ignore the errors and they will disappear after installing needed plugins) and run:
+4. Setup `vundle`:
+
+        cd ~/.dot-vimrc
+        git submodule init
+        git submodule update
+
+5. Install bundles. Launch vim(Ignore the errors and they will disappear after installing needed plugins) and run:
 		
         :BundleInstall
 
