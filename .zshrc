@@ -36,7 +36,7 @@ ZSH_THEME="agnoster"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git, github, osx)
+plugins=(git, github, osx, brew, tmux)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -60,3 +60,5 @@ export PATH=/Users/anggao/Applications/mongodb/bin:$PATH
 alias emacs='open -a /Applications/Emacs.app $1'
 
 export PATH="$PATH:/usr/local/smlnj-110.75/bin"
+
+alias fedora='ssh auser@10.211.55.7'
