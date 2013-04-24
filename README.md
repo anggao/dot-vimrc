@@ -2,11 +2,12 @@
 ==========================================================
 
 ## Installation
-1. backup your old vim configuration file:
+1. backup your old vim/zsh/tmux configuration file:
 
         mv ~/.zshrc ~/.zshrc.orig
         mv ~/.vim ~/.vim.orig
         mv ~/.vimrc ~/.vimrc.orig
+        mv ~/.tmux.conf ~/.tmux.conf.orig
         
 2. Clone and install this repo:
         
@@ -14,6 +15,7 @@
         ln -s ~/.dot-vimrc/.vimrc ~/.vimrc
         ln -s ~/.dot-vimrc/.vim ~/.vim
         ln -s ~/.dot-vimrc/.zshrc ~/.zshrc
+        ln -s ~/.dot-vimrc/.tmux.conf ~/.tmux.conf
 
 3. Setup `oh-my-zsh`:
 
