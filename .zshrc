@@ -46,9 +46,9 @@ source $ZSH/oh-my-zsh.sh
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # Terminal Color 設定
+
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
-
 
 #sets up proper alias commands when called
 alias ls='ls -G'
@@ -56,9 +56,12 @@ alias ll='ls -hl'
 
 export PATH=/Users/anggao/Applications/sbt/bin:$PATH
 export PATH=/Users/anggao/Applications/mongodb/bin:$PATH
+export PATH=/Users/anggao/Applications/apache-maven-3.0.5/bin:$PATH
 
 alias emacs='open -a /Applications/Emacs.app $1'
 
 export PATH="$PATH:/usr/local/smlnj-110.75/bin"
 
 alias fedora='ssh auser@10.211.55.7'
+
+
