@@ -47,6 +47,11 @@ set showmatch                   " show matching bracket (briefly jump)
 set showcmd                     " show typed command in status bar 
 set laststatus=2                " use 2 lines for the status bar
 
+" space highlight
+set list
+set listchars=tab:--,trail:-
+hi SpecialKey ctermfg=77 guifg=#696969
+
 " Default Identation
 set autoindent
 set smartindent                 " indent when
